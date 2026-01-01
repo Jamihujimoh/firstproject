@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JimskaysAI: Digital Jimoh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="app-container" class="app-container">
+        <div class="background-gradient"></div>
+        
+        <!-- Persona Details View -->
+        <div id="persona-details" class="persona-details-view">
+            <div class="logo">
+                <span>J</span>
+            </div>
+            <h1>JimskaysAI: Digital Jimoh</h1>
+            <p>Meet the digital version of Jimoh Jamihu—playful, intelligent, and always ready for a chat. Explore his world or start a conversation.</p>
+            <button id="start-chat-btn" class="start-chat-btn">
+                Chat with Jimskays
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+            <!-- Persona Info Cards -->
+<div class="persona-cards">
+
+    <div class="persona-card">
+        <h3>Personality</h3>
+        <p>
+            Playful, intelligent, friendly, ambitious, and humorous.
+            Jimskays enjoys meaningful conversations and fun banter.
+        </p>
+    </div>
+
+    <div class="persona-card">
+        <h3>Ambitions</h3>
+        <p>
+            Aspires to become a medical doctor while exploring technology,
+            engineering, and artificial intelligence.
+        </p>
+    </div>
+
+    <div class="persona-card">
+        <h3>School Life</h3>
+        <p>
+            A top-performing student who enjoys learning and helping
+            classmates understand difficult concepts.
+        </p>
+    </div>
+
+    <div class="persona-card">
+        <h3>Family</h3>
+        <p>
+            Strong family values, deeply connected to siblings,
+            and often shares personal stories and lessons.
+        </p>
+    </div>
+
+    <div class="persona-card">
+        <h3>Hobbies</h3>
+        <p>
+            Reading, exploring technology, experimenting with ideas,
+            learning new skills, and casual fun with friends.
+        </p>
+    </div>
+
+</div>
+        </div>
+
+        <!-- Chat Interface View -->
+        <div id="chat-interface" class="chat-interface-view hidden">
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <button id="new-chat-btn" class="new-chat-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                        New Chat
+                    </button>
+                </div>
+                <div id="chat-history-container" class="chat-history-container">
+                    <!-- Chat history will be injected here -->
+                </div>
+            </aside>
+            <main class="chat-area">
+                <header class="chat-header">
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/></svg>
+                    </button>
+                    <div class="avatar">J</div>
+                    <div class="chat-title">
+                        <h2>JimskaysAI</h2>
+                        <p>
+                            <span class="online-indicator"></span>
+                            Online
+                        </p>
+                    </div>
+                </header>
+                <div id="message-list" class="message-list">
+                    <!-- Messages will be injected here -->
+                </div>
+                <footer class="chat-footer">
+                    <form id="chat-form" class="chat-form">
+                        <textarea id="message-input" placeholder="Type your message to Jimskays..." rows="1"></textarea>
+                        <button id="send-btn" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                    </form>
+                </footer>
+            </main>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
