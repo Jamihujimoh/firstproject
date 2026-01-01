@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- IMPORTANT ---
     // PASTE YOUR GOOGLE AI API KEY HERE
-    const GEMINI_API_KEY = "PASTE_YOUR_API_KEY_HERE";
+    const GEMINI_API_KEY = "AIzaSyD44Jzt3GLLKtzNIgprGnVjVre48BT2kKg";
     // --- IMPORTANT ---
 
     // Views
